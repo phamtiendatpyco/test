@@ -8,7 +8,11 @@
 ```
 mvn clean install
 ```
-
+- To test and generate test coverage :
+```
+mvn clean test
+```
+Find test coverage in **project directory > target > site > index.html**
 ## Complexity analysis
 ### Test 1:
 - storeData: We have 2 loops
